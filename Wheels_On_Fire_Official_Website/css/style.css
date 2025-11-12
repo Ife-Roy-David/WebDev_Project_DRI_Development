@@ -453,6 +453,27 @@ footer { /* Footer */
   .footer {grid-area: 3 / span 6;}
 }
 
+/* Base = Mobile (<600px): stack everything */
+.container {
+  display: grid;
+  grid-template-columns: 1fr;  /* single column on mobile */
+  gap: 16px;
+  padding: 16px;
+}
+
+
+/* Desktop (>1024px): */
+@media (min-width: 1025px) {
+  .container {
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 24px;
+    padding: 24px;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+
+
 
 
 

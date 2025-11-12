@@ -71,11 +71,6 @@ nav a:hover {
   padding: 40px 20px;
 }
 
-.gallery img {
-  width: 300px;
-  border-radius: 8px;
-}
-
 footer { /* Footer */
   text-align: center;
   padding: 20px;
@@ -476,4 +471,5 @@ footer { /* Footer */
   .facts {grid-area: 2 / span 1;}
   .footer {grid-area: 3 / span 6;}
 }
+
 

@@ -472,3 +472,16 @@ footer { /* Footer */
     max-width: 1200px;
     margin: 0 auto;
   }
+
+/* Header shadow toggle used by JS */
+header.has-shadow {
+  box-shadow: 0 4px 14px rgba(0,0,0,0.35);
+}
+
+/* Visible focus ring for keyboard users */
+a:focus,
+button:focus,
+img[tabindex="0"]:focus {
+  outline: 2px solid #e60000;
+  outline-offset: 2px;
+}

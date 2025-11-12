@@ -126,13 +126,6 @@ footer { /* Footer */
   background: rgba(0, 0, 0, 0.5); /* dark overlay */
   z-index: -1;
 }
-.gallery {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  padding: 40px 20px;
-}
-
 .gallery img {
   width: 300px;
   border-radius: 8px;
@@ -483,3 +476,4 @@ footer { /* Footer */
   .facts {grid-area: 2 / span 1;}
   .footer {grid-area: 3 / span 6;}
 }
+

@@ -193,17 +193,6 @@ footer { /* Footer */
   z-index: -1;
 }
 
-.info-section img {
-  display: block;
-  margin: 20px auto;
-  width: 100%;
-  max-width: 350px;
-  height: auto;
-  border-radius: 8px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
-  transition: transform 0.3s ease;
-}
-
 .info-section { /* Info Section Layout */
   display: flex;
   flex-wrap: wrap;
@@ -467,6 +456,7 @@ footer { /* Footer */
   .facts {grid-area: 2 / span 1;}
   .footer {grid-area: 3 / span 6;}
 }
+
 
 
 

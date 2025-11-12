@@ -204,10 +204,6 @@ footer { /* Footer */
   transition: transform 0.3s ease;
 }
 
-.info-section img:hover {
-  transform: scale(1.03);
-}
-
 .info-section { /* Info Section Layout */
   display: flex;
   flex-wrap: wrap;
@@ -471,5 +467,6 @@ footer { /* Footer */
   .facts {grid-area: 2 / span 1;}
   .footer {grid-area: 3 / span 6;}
 }
+
 
 

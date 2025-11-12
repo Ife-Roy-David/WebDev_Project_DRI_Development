@@ -35,14 +35,6 @@ nav a:hover {
   color: #e60000;
 }
 
-.hero { /* Hero Section */
-  text-align: center;
-  padding: 80px 20px;
-  background-image: url('../images/background.jpg');
-  background-size: cover;
-  background-position: center;
-}
-
 .hero h1 {
   font-size: 48px;
   margin-bottom: 20px;
@@ -481,4 +473,13 @@ footer { /* Footer */
 .car-card p {
   font-size: 16px;
   color: #333;
+
+}
+
+@media (min-width: 600px) {
+  .header {grid-area: 1 / span 6;}
+  .menu {grid-area: 2 / span 1;}
+  .content {grid-area: 2 / span 4;}
+  .facts {grid-area: 2 / span 1;}
+  .footer {grid-area: 3 / span 6;}
 }

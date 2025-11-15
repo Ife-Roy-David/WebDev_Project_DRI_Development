@@ -445,6 +445,50 @@ footer { /* Footer */
 
 }
 
+.confirmation-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Centers vertically */
+}
+
+.confirmation-message {
+  background-color: #1c1c1c; /* Dark grey box */
+  color: #fff; /* White text */
+  text-align: center;
+  padding: 50px 70px;
+  border-radius: 15px; /* Curved corners */
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.6);
+  max-width: 700px;
+}
+
+.confirmation-message h2 {
+  font-size: 3rem;
+  color: #e50914; /* Red accent for heading */
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+.confirmation-message p {
+  font-size: 1.3rem;
+  margin-bottom: 15px;
+}
+
+.confirmation-message .btn {
+  display: inline-block;
+  background-color: #e50914; /* Red button */
+  color: #fff;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.confirmation-message .btn:hover {
+  background-color: #ff1e2d; /* Slightly lighter red on hover */
+}
+
 @media (min-width: 600px) {
   .header {grid-area: 1 / span 6;}
   .menu {grid-area: 2 / span 1;}
@@ -515,3 +559,4 @@ footer { /* Footer */
 .back-to-top:focus-visible {
   box-shadow: 0 0 0 3px rgba(230,0,0,0.3), 0 6px 16px rgba(0,0,0,0.25);
 }
+

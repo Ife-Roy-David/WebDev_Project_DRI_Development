@@ -474,6 +474,21 @@ footer { /* Footer */
   margin-bottom: 15px;
 }
 
+.confirmation-message .btn {
+  display: inline-block;
+  background-color: #e50914; /* Red button */
+  color: #fff;
+  padding: 14px 28px;
+  text-decoration: none;
+  font-size: 1.1rem;
+  border-radius: 8px;
+  transition: background 0.3s ease;
+}
+
+.confirmation-message .btn:hover {
+  background-color: #ff1e2d; /* Slightly lighter red on hover */
+}
+
 @media (min-width: 600px) {
   .header {grid-area: 1 / span 6;}
   .menu {grid-area: 2 / span 1;}
@@ -539,6 +554,7 @@ footer { /* Footer */
 .back-to-top:active {
   transform: translateY(1px);
 }
+
 
 
 

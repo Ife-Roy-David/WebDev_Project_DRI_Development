@@ -464,7 +464,7 @@ footer { /* Footer */
 
 .confirmation-message h2 {
   font-size: 3rem;
-  color: #e50914; /* Red heading */
+  color: #e50914; /* Red accent for heading */
   margin-bottom: 25px;
   font-weight: bold;
 }
@@ -539,6 +539,7 @@ footer { /* Footer */
 .back-to-top:active {
   transform: translateY(1px);
 }
+
 
 
 

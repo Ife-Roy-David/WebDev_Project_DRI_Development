@@ -445,6 +445,13 @@ footer { /* Footer */
 
 }
 
+.confirmation-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh; /* Centers vertically */
+}
+
 .confirmation-message {
   background-color: #1c1c1c; /* Dark grey box */
   color: #fff; /* White text */
@@ -532,6 +539,7 @@ footer { /* Footer */
 .back-to-top:active {
   transform: translateY(1px);
 }
+
 
 
 

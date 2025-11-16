@@ -538,7 +538,6 @@ footer { /* Footer */
   transform: translateY(6px);
 }
 
-/* visible state toggled by JS */
 .back-to-top.is-visible {
   display: inline-block;
   opacity: 1;
@@ -555,20 +554,7 @@ footer { /* Footer */
   transform: translateY(1px);
 }
 
-#age-check .btn {
-  background-color: #e50914;
-  color: #fff;
-  padding: 12px 24px;
-  border-radius: 8px;
-  font-size: 1rem;
-  border: none;
-  cursor: pointer;
-  transition: background 0.3s ease;
-}
 
-#age-check .btn:hover {
-  background-color: #ff1e2d;
-}
 
 
 

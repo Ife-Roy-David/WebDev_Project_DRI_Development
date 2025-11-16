@@ -37,3 +37,29 @@ document.addEventListener('DOMContentLoaded', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 });
+
+function showAgePrompt() {
+  let age = prompt("Please enter your age:");
+  
+  if (age === null || age.trim() === "") {
+    document.getElementById("age-message").textContent = "Age is required to proceed.";
+    return;
+  }
+
+  age = parseInt(age);
+
+  if (isNaN(age)) {
+    document.getElementById("age-message").textContent = "Please enter a valid number.";
+    return;
+  }
+
+  if (age >= 16) {
+    // Hide the prompt section and allow access
+    document.getElementById("age-check").style.display = "none";
+    alert("Welcome! You are eligible to browse and buy from our website.");
+    // Optionally redirect to homepage or unlock content
+    window.location.href = "index.html"; 
+  } else {
+    document.getElementById("age-message").textContent = "You must be 16 or older to buy from our website.";
+  }
+}

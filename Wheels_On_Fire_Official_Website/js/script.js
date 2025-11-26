@@ -37,3 +37,37 @@ document.addEventListener('DOMContentLoaded', () => {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   });
 });
+
+document.addEventListener("DOMContentLoaded", function () {
+  const form = document.querySelector(".contact-form");
+
+  form.addEventListener("submit", function (event) {
+    const name = form.querySelector('input[name="name"]').value.trim();
+    const email = form.querySelector('input[name="email"]').value.trim();
+    const message = form.querySelector('textarea[name="message"]').value.trim();
+
+    let errors = [];
+
+    // Validate name (letters only)
+    if (!/^[A-Za-z\s]+$/.test(name)) {
+      errors.push("Name can only letters and spaces.");
+    }
+
+    // Validate email format
+    if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
+      errors.push("Please enter a valid email address.");
+    }
+
+    // Validate message length
+    if (message.length < 5) {
+      errors.push("Message must be at least 10 characters long.");
+    }
+
+    // Show errors and prevent submission
+    if (errors.length > 0) {
+      event.preventDefault();
+      alert(errors.join("\n"));
+    }
+  });
+});
+

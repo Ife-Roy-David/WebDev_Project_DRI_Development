@@ -554,7 +554,7 @@ footer { /* Footer */
   transform: translateY(1px);
 }
 
-select {
+.select {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
@@ -565,6 +565,7 @@ select {
   color: #000;
   box-sizing: border-box;
 }
+
 
 
 

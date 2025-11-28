@@ -555,14 +555,18 @@ footer { /* Footer */
 }
 
 
-select {
+.select {
   width: 100%;
   padding: 10px;
   margin-bottom: 15px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  border-radius: 6px; 
   font-size: 16px;
+  background-color: #fff; 
+  color: #000; 
+  box-sizing: border-box;
 }
+
 
 
 

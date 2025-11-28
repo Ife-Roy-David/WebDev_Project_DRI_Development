@@ -3,14 +3,11 @@ Subject: Update on Contact Form Enhancements
 Dear John O’Reilly,
 
 We’re writing to update you on the recent enhancements made to the contact form as requested.
-
-
 The form now includes separate fields for First Name and Last Name for better clarity.
-A new Reason for Inquiry dropdown has been added with options: General, Feedback, and Technical Support.
+A new 'Reason for Inquiry' dropdown has been added with options: General, Feedback, and Technical Support.
 The design and styling of these additions have been kept consistent with the existing website layout.
 
-Data Validation and Accessibility:
-
+Regarding the data validation and accessibility: 
 All fields are marked as required to ensure complete submissions.
 The Email Address field validates proper email format.
 The Name field accepts only letters and spaces.
@@ -18,7 +15,8 @@ The Message field requires a minimum length to encourage detailed inquiries.
 Error messages are displayed as clear text alerts at the top of the form, avoiding reliance on color cues to ensure accessibility for color-blind users.
 
 You can view the updated page here:
-https://ife-roy-david.github.io/WebDev_Project_DRI_Development/index.html
+[ https://ife-roy-david.github.io/WebDev_Project_DRI_Development/index.html ]
 Please let me know if you have any feedback or further adjustments you’d like to see.
+
 Best regards,
-Ifeoluwa Ojo
+DRI Development

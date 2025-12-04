@@ -60,7 +60,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // Validate message length
     if (message.length < 5) {
-      errors.push("Message must be at least 10 characters long.");
+      errors.push("Message must be at least 5 characters long.");
     }
 
     // Show errors and prevent submission
@@ -70,4 +70,5 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
 
